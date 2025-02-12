@@ -6,17 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link rel="icon" href="img/flowers.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>flowers</title>
   </head>
   <body class="container">
     <div class="night"></div>
-    <audio  style="position: absolute; z-index: -10;" controls autoplay>
+    <audio style="display: none" id="audioPlayer" controls muted>
       <source src="/song.mp3" type="audio/mpeg" />
     </audio>
     <div class="flowers">
-      <!-- <div style="font-size: 100px; color: aqua; position: absolute; top: -1000px;" class="flower flower--1 flower__leafs flower__leafs--1">
-        Hairtaishvv Tsoomoo
-      </div> -->
+      <div
+        style="position: absolute; top: -1100px; right: 400px"
+        class="flower flower--1 flower__leafs flower__leafs--1"
+      >
+        <div class="moon-background"></div>
+      </div>
+
+
+      <div
+        style="
+          font-size: 56px;
+          color: aqua;
+          position: absolute;
+          top: -1100px;
+          width: 800px;
+          left: 250;
+          text-align: center;
+        "
+        class="flower flower--1 flower__leafs flower__leafs--1"
+      >
+        <p class="hind-siliguri-semibold">
+          我爱你，爱 我的女朋友最漂亮最强，祝你节日快乐
+        </p>
+      </div>
       <div class="flower flower--1">
         <div class="flower__leafs flower__leafs--1">
           <div class="flower__leaf flower__leaf--1"></div>
